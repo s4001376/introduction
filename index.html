@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            My first website :D
+        </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+    </head>
+
+    <body>
+        <body style="background-color:maroon"/>
+        <h1>
+            A siTh LoRd?
+        </h1>
+        <img id="anirage" src="img/anakin.jpeg" width="200" height="300"onmouseover="this.src='img/vader.jpeg';" onmouseout="this.src='img/anakin.jpeg';"/>
+        <img id="lordjj" src="img/jarjar.webp" width="300" height="600"/>
+        <img id="windont" src="img/windu.webp" width="200" height="300"/>
+        
+        <script>
+            var sound1 = new buzz.sound("sound/bottledong.mp3");
+            var sound2 = new buzz.sound("sound/applecrunch.mp3");
+            var sound3 = new buzz.sound("sound/water.mp3");
+        
+
+   
+        window.onload = function(){
+            document.getElementById('anirage').addEventListener('mouseover', function () {sound1.play();});
+
+        };
+
+    </script>
+        <h5>
+
+    </body>
+
+</html>
